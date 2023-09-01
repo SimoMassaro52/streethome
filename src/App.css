@@ -13,10 +13,70 @@ a {
 	text-decoration: none;
 }
 
+/* main */
+
+main {
+	margin: 130px 0 75px 0;
+	height: 100vh;
+	z-index: -1;
+	width: 100%;
+}
+
+.video-wrap {
+	display: flex;
+	justify-content: center;
+}
+
+video {
+	width: 80%;
+}
+
+video::-webkit-media-controls-panel {
+	background-color: transparent !important;
+	box-shadow: none !important;
+}
+
+/* links */
+
+.links-wrap {
+	padding-bottom: 100px;
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.day-link {
+	width: 40%;
+	margin: 10px 10px;
+}
+
+.day-link img {
+	width: 100%;
+}
+
+/* whatsapp */
+
+.whatsapp-icon {
+	position: fixed;
+	bottom: 100px;
+	right: 25px;
+}
+
+.whatsapp-icon img {
+	width: 60px;
+	border-radius: 100%;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+		rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
 /* header */
 
 .logodata {
 	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
 }
 
 /* footer */
