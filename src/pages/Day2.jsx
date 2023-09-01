@@ -4,7 +4,7 @@ import day2 from "../assets/day2.jpg";
 export default function Day2() {
 	return (
 		<>
-			<main>
+			<main className="day-wrap">
 				<div className="img-wrap">
 					<img src={day2} />
 					<p className="text-wrap">

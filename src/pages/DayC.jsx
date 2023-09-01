@@ -4,7 +4,7 @@ import dayC from "../assets/dayc.jpg";
 export default function DayC() {
 	return (
 		<>
-			<main>
+			<main className="day-wrap">
 				<div className="img-wrap">
 					<img src={dayC} />
 					<p className="text-wrap">

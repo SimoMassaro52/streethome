@@ -9,7 +9,7 @@ import thumbnailC from "../assets/thumbnailC.jpg";
 export default function Home() {
 	return (
 		<>
-			<main>
+			<main className="landing-wrap">
 				<div className="video-wrap">
 					<video
 						autoPlay="autoplay"

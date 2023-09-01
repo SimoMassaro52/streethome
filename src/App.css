@@ -16,10 +16,17 @@ a {
 /* main */
 
 main {
-	margin: 140px 0 75px 0;
 	height: 100vh;
 	z-index: -1;
 	width: 100%;
+}
+
+.landing-wrap {
+	margin: 140px 0 75px 0;
+}
+
+.day-wrap {
+	margin: 140px 0 0 0;
 }
 
 .video-wrap,
