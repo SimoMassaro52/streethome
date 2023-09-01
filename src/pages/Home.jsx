@@ -17,20 +17,16 @@ export default function Home() {
 				</div>
 
 				<div className="links-wrap">
-					<NavLink
-						onClick={window.scrollTo(0, 0)}
-						to="day1"
-						className="day-link"
-					>
+					<NavLink to="day1" className="day-link">
 						<img src={thumbnail1} />
 					</NavLink>
-					<NavLink to="day1" className="day-link">
+					<NavLink to="day2" className="day-link">
 						<img src={thumbnail2} />
 					</NavLink>
-					<NavLink to="day1" className="day-link">
+					<NavLink to="day3" className="day-link">
 						<img src={thumbnail3} />
 					</NavLink>
-					<NavLink to="day1" className="day-link">
+					<NavLink to="dayC" className="day-link">
 						<img src={thumbnailC} />
 					</NavLink>
 				</div>

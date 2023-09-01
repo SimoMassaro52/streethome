@@ -1,11 +1,16 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import day3 from "../assets/day3.jpg";
 
 export default function Day3() {
 	return (
 		<>
 			<main>
-				<h1>day3</h1>
+				<div className="img-wrap">
+					<img src={day3} />
+					<p className="text-wrap">
+						Officia Lorem duis pariatur irure minim pariatur irure ad nulla ea.
+					</p>
+				</div>
 			</main>
 		</>
 	);

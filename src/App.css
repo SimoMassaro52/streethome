@@ -5,7 +5,7 @@
 }
 
 body * {
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	font-family: "Raleway", sans-serif;
 }
 
@@ -22,18 +22,28 @@ main {
 	width: 100%;
 }
 
-.video-wrap {
+.video-wrap,
+.img-wrap {
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
-video {
+video,
+img {
 	width: 80%;
 }
 
 video::-webkit-media-controls-panel {
 	background-color: transparent !important;
 	box-shadow: none !important;
+}
+
+.text-wrap {
+	padding: 25px 50px;
+	text-align: center;
+	line-height: 1.6;
 }
 
 /* links */

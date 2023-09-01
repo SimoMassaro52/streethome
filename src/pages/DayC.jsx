@@ -1,11 +1,16 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import dayC from "../assets/dayc.jpg";
 
 export default function DayC() {
 	return (
 		<>
 			<main>
-				<h1>dayc</h1>
+				<div className="img-wrap">
+					<img src={dayC} />
+					<p className="text-wrap">
+						Officia Lorem duis pariatur irure minim pariatur irure ad nulla ea.
+					</p>
+				</div>
 			</main>
 		</>
 	);
