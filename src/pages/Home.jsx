@@ -11,7 +11,15 @@ export default function Home() {
 		<>
 			<main>
 				<div className="video-wrap">
-					<video autoPlay="autoplay" loop={true} muted>
+					<video
+						autoPlay="autoplay"
+						loop={true}
+						muted
+						defaultMuted
+						playsInline
+						onContextMenu={false}
+						preload="auto"
+					>
 						<source type="video/mp4" src={gif} />
 					</video>
 				</div>

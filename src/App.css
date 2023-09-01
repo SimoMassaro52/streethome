@@ -101,11 +101,11 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #252525;
+	background-color: #ef5f39;
 }
 
 .footer-box {
-	color: #aaaaaa;
+	color: white;
 	font-size: 12px;
 	font-weight: 500;
 	display: flex;
@@ -115,5 +115,5 @@ footer {
 }
 
 .footer-box a {
-	color: #aaaaaa;
+	color: white;
 }
