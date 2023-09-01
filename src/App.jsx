@@ -11,7 +11,6 @@ import Day1 from "./pages/Day1";
 import Day2 from "./pages/Day2";
 import Day3 from "./pages/Day3";
 import DayC from "./pages/DayC";
-import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
 	const router = createBrowserRouter(
