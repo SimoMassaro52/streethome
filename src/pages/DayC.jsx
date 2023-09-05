@@ -7,9 +7,9 @@ export default function DayC() {
 			<main className="day-wrap">
 				<div className="img-wrap">
 					<img src={dayC} />
-					<p className="text-wrap">
+					<div className="text-wrap">
 						Officia Lorem duis pariatur irure minim pariatur irure ad nulla ea.
-					</p>
+					</div>
 				</div>
 			</main>
 		</>

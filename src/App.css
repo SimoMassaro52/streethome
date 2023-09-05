@@ -48,9 +48,10 @@ video::-webkit-media-controls-panel {
 }
 
 .text-wrap {
-	padding: 25px 50px;
+	padding: 25px 25px;
 	text-align: center;
 	line-height: 1.6;
+	font-size: 15px;
 }
 
 /* links */
@@ -129,4 +130,21 @@ footer {
 
 .footer-box a {
 	color: white;
+}
+
+/* contest btn */
+
+.cbtn-wrap {
+	margin: 10px 0 0 0;
+	padding: 0 0 100px 0;
+}
+
+.contest-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contest-btn img {
+	max-width: 310px;
 }
