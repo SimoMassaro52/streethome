@@ -9,12 +9,24 @@ export default function Day1() {
 				<div className="img-wrap">
 					<img src={day1} />
 					<div className="text-wrap">
-						<p>22 SETTEMBRE</p>
-						<p>APERTURA ORE 18:00</p>
-						<p>DALLE 18:00 ALLE 22:00 DJSET</p>
-						<p>ALLE 22 LIVE DI NERONE + ENSI presentano BRAVA GENTE </p>
-						<p>DA MEZZANOTTE AFTER SHOW DI ALEX PAONE </p>
-						<p>ALL’HOME ROCK BAR</p>
+						<p className="day-title">22 SETTEMBRE 2023</p>
+						<p className="day-txt-reg">APERTURA ORE 18:00</p>
+						<br />
+						<p className="day-txt-reg">Dalle 18:00 alle 22:00</p>
+						<p className="day-txt-bold">DJSET</p>
+						<br />
+						<p className="day-txt-reg">ALLE 22:00</p>
+						<p className="day-txt-reg">
+							LIVE <span className="day-txt-bold">NERONE & ENSI</span>
+						</p>
+						<p className="day-txt-reg">presentano</p>
+						<p className="day-txt-reg">BRAVA GENTE</p>
+						<br />
+						<p className="day-txt-reg">DA MEZZANOTTE</p>
+						<p className="day-txt-reg">
+							AFTER SHOW DI <span className="day-txt-bolder">ALEX PAONE</span>
+						</p>
+						<p className="day-txt-reg">ALL’HOME ROCK BAR</p>
 					</div>
 				</div>
 				<Contest />

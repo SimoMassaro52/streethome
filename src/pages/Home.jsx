@@ -15,7 +15,7 @@ export default function Home() {
 						autoPlay="autoplay"
 						loop={true}
 						muted
-						defaultMuted
+						defaultmuted="true"
 						playsInline
 						onContextMenu={false}
 						preload="auto"

@@ -9,11 +9,18 @@ export default function Day3() {
 				<div className="img-wrap">
 					<img src={day3} />
 					<div className="text-wrap">
-						<p>24 SETTEMBRE</p>
-						<p>APERTURA ORE 12.00</p>
-						<p>HOLI Party - DENBOW Edition by PUPPETS FAMILY</p>
-						<p>A MEZZANOTTE AFTER SHOW DI CHRISTIAN EFFE</p>
-						<p>ALL’HOME ROCK BAR</p>
+						<p className="day-title">24 SETTEMBRE 2023</p>
+						<p className="day-txt-reg">APERTURA ORE 12.00</p>
+						<br />
+						<p className="day-txt-bold">HOLI Party - DENBOW Edition</p>
+						<p className="day-txt-reg">by PUPPETS FAMILY</p>
+						<br />
+						<p className="day-txt-reg">A MEZZANOTTE</p>
+						<p className="day-txt-reg">
+							AFTER SHOW DI
+							<span className="day-txt-bolder">DJ CHRISTIAN EFFE</span>
+						</p>
+						<p className="day-txt-reg">ALL’HOME ROCK BAR</p>
 					</div>
 				</div>
 				<Contest />
