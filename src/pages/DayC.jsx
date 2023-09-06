@@ -7,7 +7,7 @@ export default function DayC() {
 			<main className="day-wrap">
 				<div className="img-wrap">
 					<img src={dayC} />
-					<div className="text-wrap">
+					<div className="text-wrap-contest">
 						<p className="day-title">REGOLAMENTO</p>
 						<br />
 						<p className="day-txt-bold">SURF MECCANICO</p>

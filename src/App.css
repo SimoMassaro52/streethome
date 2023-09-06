@@ -72,7 +72,15 @@ video::-webkit-media-controls-panel {
 	text-align: center;
 	line-height: 1.6;
 	font-size: 15px;
-	margin-bottom: 150px;
+	margin-bottom: 10px;
+}
+
+.text-wrap-contest {
+	padding: 25px 25px;
+	text-align: center;
+	line-height: 1.6;
+	font-size: 15px;
+	margin-bottom: 100px;
 }
 
 /* links */
