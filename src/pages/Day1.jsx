@@ -11,6 +11,20 @@ export default function Day1() {
 					<div className="text-wrap">
 						<p className="day-title">22 SETTEMBRE 2023</p>
 						<p className="day-txt-reg">APERTURA ORE 18:00</p>
+						<p className="day-txt-reg">
+							Apertura{" "}
+							<span className="day-txt-bolder">Contest Mechanical Surf</span>{" "}
+							ore 18:00
+						</p>
+						<p className="day-txt-reg">
+							Apertura <span className="day-txt-bolder"> Dunk Contest</span> ore
+							18:00
+						</p>
+						<p className="day-txt-reg">
+							Apertura{" "}
+							<span className="day-txt-bolder"> Contest Best Trick</span> ore
+							18:00
+						</p>
 						<br />
 						<p className="day-txt-reg">Dalle 18:00 alle 22:00</p>
 						<p className="day-txt-bold">DJSET</p>

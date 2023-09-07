@@ -11,9 +11,19 @@ export default function Day2() {
 					<div className="text-wrap">
 						<p className="day-title">23 SETTEMBRE 2023</p>
 						<p className="day-txt-reg">APERTURA ORE 15:00</p>
+						<p className="day-txt-reg">
+							Apertura{" "}
+							<span className="day-txt-bolder">Contest Mechanical Surf</span>{" "}
+							ore 15:00
+						</p>
+						<p className="day-txt-reg">
+							Apertura <span className="day-txt-bolder">Dunk Contest </span> ore
+							15:00
+						</p>
 						<br />
 						<p className="day-txt-bold">SKATE CONTEST “Skate trick” </p>
 						<p className="day-txt-reg">Ramp Trick </p>
+						<p className="day-txt-reg">Apertura ore 16:00</p>
 						<p className="day-txt-bolder">PREMIAZIONI BY LOBSTER</p>
 						<p className="day-txt-reg">powered by SHIFTY</p>
 						<br />

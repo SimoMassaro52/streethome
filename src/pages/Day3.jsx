@@ -11,6 +11,28 @@ export default function Day3() {
 					<div className="text-wrap">
 						<p className="day-title">24 SETTEMBRE 2023</p>
 						<p className="day-txt-reg">APERTURA ORE 12.00</p>
+						<p className="day-txt-reg">
+							Apertura{" "}
+							<span className="day-txt-bolder">Contest Mechanical Surf</span>{" "}
+							ore 12:00
+						</p>
+						<p className="day-txt-reg">
+							Apertura <span className="day-txt-bolder">Dunk Contest</span> ore
+							12:00
+						</p>
+						<p className="day-txt-reg">
+							Apertura{" "}
+							<span className="day-txt-bolder">Contest Best Trick</span> ore
+							12:00
+						</p>
+						<p className="day-txt-reg">
+							Apertura <span className="day-txt-bolder">Basket 2 vs 2</span> ore
+							15:00
+						</p>
+						<p className="day-txt-reg">
+							Apertura <span className="day-txt-bolder">Basket tiri da 3</span>{" "}
+							ore 15:00
+						</p>
 						<br />
 						<p className="day-txt-bold">HOLI Party - DENBOW Edition</p>
 						<p className="day-txt-reg">by PUPPETS FAMILY</p>

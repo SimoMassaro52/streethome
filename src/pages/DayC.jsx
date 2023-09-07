@@ -11,6 +11,9 @@ export default function DayC() {
 						<p className="day-title">REGOLAMENTO</p>
 						<br />
 						<p className="day-txt-bold">SURF MECCANICO</p>
+						<p className="day-txt-reg"> Day 1 - dalle 18:00</p>
+						<p className="day-txt-reg"> Day 2 - dalle 15:00</p>
+						<p className="day-txt-reg"> Day 3 - dalle 12:00</p>
 						<p className="contest-txt">
 							Contest a iscrizione gratuita - unico obbligo essere follower
 							delle pagina instagram
@@ -39,6 +42,9 @@ export default function DayC() {
 						</p>
 						<br />
 						<p className="day-txt-bold">SKATE TRICK</p>
+						<p className="day-txt-reg"> Day 1 - dalle 18:00</p>
+						<p className="day-txt-reg"> Day 2 - dalle 16:00</p>
+						<p className="day-txt-reg"> Day 3 - dalle 12:00</p>
 						<p className="day-txt-reg">
 							Contest powered by
 							<span className="day-txt-bolder"> THE SHIFTY CREW</span>
@@ -56,6 +62,7 @@ export default function DayC() {
 						</p>
 						<br />
 						<p className="day-txt-bold">Basket 2 vs 2 misto</p>
+						<p className="day-txt-reg"> Day 3 - dalle 15:00</p>
 						<p className="contest-txt">
 							• Il torneo si terrà su asfalto e su un campo non regolamentare ma
 							<span className="day-txt-bolder"> “street”</span>. Il torneo non è
@@ -162,6 +169,7 @@ export default function DayC() {
 						</p>
 						<br />
 						<p className="day-txt-bold">Contest 3 punti</p>
+						<p className="day-txt-reg"> Day 3 - dalle 15:00</p>
 						<p className="contest-txt">
 							Vince la gara chi{" "}
 							<span className="day-txt-bolder">in 90 secondi di tempo</span>{" "}
@@ -183,6 +191,7 @@ export default function DayC() {
 						</p>
 						<br />
 						<p className="day-txt-bold">BEER MILE</p>
+						<p className="day-txt-reg"> Day 2 - dalle 20:00</p>
 						<p className="contest-txt">
 							É una corsa non competitiva{" "}
 							<span className="day-txt-bolder"> aperta a tutti </span>. Si
