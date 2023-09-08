@@ -4,7 +4,7 @@ import whatsapp from "../assets/whatsapp.png";
 export default function Whatsapp() {
 	return (
 		<>
-			<a href="https://wa.me/3456185005" className="whatsapp-icon">
+			<a href="https://wa.me/3333207795" className="whatsapp-icon">
 				<img src={whatsapp} />
 			</a>
 		</>
