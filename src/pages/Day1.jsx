@@ -10,6 +10,7 @@ export default function Day1() {
 					<img src={day1} />
 					<div className="text-wrap">
 						<p className="day-title">22 SETTEMBRE 2023</p>
+						<p className="day-txt-bolder">FREE ENTRY</p>
 						<p className="day-txt-reg">APERTURA ORE 18:00</p>
 						<p className="day-txt-reg">
 							Apertura{" "}
@@ -36,11 +37,10 @@ export default function Day1() {
 						<p className="day-txt-reg">presentano</p>
 						<p className="day-txt-reg">BRAVA GENTE</p>
 						<br />
-						<p className="day-txt-reg">DA MEZZANOTTE</p>
 						<p className="day-txt-reg">
 							AFTER SHOW DI <span className="day-txt-bolder">ALEX PAONE</span>
 						</p>
-						<p className="day-txt-reg">ALL’HOME ROCK BAR</p>
+						<p className="day-txt-reg">AT HOME ROCK BAR</p>
 					</div>
 				</div>
 				<Contest />
